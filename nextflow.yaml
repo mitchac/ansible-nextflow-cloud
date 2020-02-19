@@ -3,4 +3,4 @@
     
   roles:
     - role: mount-disk
-    - role: install-software
+    - role: oracle_java_on_ubuntu
