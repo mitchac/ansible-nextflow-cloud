@@ -6,3 +6,4 @@
     - role: geerlingguy.java
     - role: andrewrothstein.miniconda
     - role: stefangweichinger.rclone
+    - role: install-software

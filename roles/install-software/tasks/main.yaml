@@ -1,2 +1,5 @@
-  roles:
-    - oracle_java_on_ubuntu
+  - name: Execute Script
+    shell: wget -qO- get.nextflow.io | bash
+  - name: Move nextflow to /usr/local/bin
+    command: mv nextflow /usr/local/bin
+
