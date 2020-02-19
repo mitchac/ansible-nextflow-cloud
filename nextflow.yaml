@@ -3,4 +3,4 @@
     
   roles:
     - role: mount-disk
-    - role: ansiblebit.oracle-java
+    - role: geerlingguy.java
