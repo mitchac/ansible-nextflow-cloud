@@ -4,3 +4,4 @@
   roles:
     - role: mount-disk
     - role: geerlingguy.java
+    - role: uchida.miniconda
