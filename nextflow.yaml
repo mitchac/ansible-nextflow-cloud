@@ -3,4 +3,4 @@
     
   roles:
     - role: mount-disk
-    - role: oracle_java_on_ubuntu
+    - role: ansiblebit.oracle-java
