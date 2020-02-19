@@ -10,7 +10,7 @@ Clone this repo to your computer
 Install ansible roles with following command/s
 ```
 ansible-galaxy install geerlingguy.java
-ansible-galaxy install uchida.miniconda
+ansible-galaxy install andrewrothstein.miniconda
 ansible-galaxy install stefangweichinger.rclone
 ```
 ### Step 3
