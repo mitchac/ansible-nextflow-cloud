@@ -5,3 +5,4 @@
     - role: mount-disk
     - role: geerlingguy.java
     - role: andrewrothstein.miniconda
+    - role: stefangweichinger.rclone
