@@ -3,3 +3,4 @@
     
   roles:
     - role: mount-disk
+    - role: install-software

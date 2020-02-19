@@ -1,0 +1,2 @@
+- name: oracle_java_on_ubuntu
+  src: https://github.com/malk/ansible-java8-oracle
