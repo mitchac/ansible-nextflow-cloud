@@ -22,6 +22,12 @@ Run the playbook with the following command:
 ansible-playbook -i hosts nextflow.yaml
 ```
 ### Step
+Access your cloud computer 
+```
+ssh -i path/to/pem/file remote@IP
+```
+
+### Step
 Change nextflow owner and permissions
 ```
 sudo chown ubuntu /usr/local/bin/nextflow
