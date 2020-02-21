@@ -26,10 +26,3 @@ Access your cloud computer
 ```
 ssh -i path/to/pem/file remote@IP
 ```
-
-### Step
-Change nextflow owner and permissions
-```
-sudo chown ubuntu /usr/local/bin/nextflow
-sudo chmod 755 /usr/local/bin/nextflow
-```
