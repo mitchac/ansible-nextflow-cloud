@@ -1,5 +1,13 @@
-  - name: Execute Script
+  - name: Download and install nextflow
     shell: wget -qO- get.nextflow.io | bash
-  - name: Move nextflow to /usr/local/bin
-    command: mv nextflow /usr/local/bin
+  #- name: Move nextflow to /usr/local/bin
+  #  command: mv nextflow /usr/local/bin
+  - name: Copy nextflow to /usr/local/bin
+    copy: remote_src=True src=nextflow dest=/usr/local/bin/nextflow
+  - name: Change nextflow file ownership, group and permissions
+    file:
+      path: /usr/local/bin/nextflow
+      owner: ubuntu
+      group: ubuntu
+      mode: '0755'
 

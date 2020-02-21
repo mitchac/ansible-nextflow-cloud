@@ -21,9 +21,3 @@ Run the playbook with the following command:
 ```
 ansible-playbook -i hosts nextflow.yaml
 ```
-### Step
-Change nextflow owner and permissions
-```
-sudo chown ubuntu /usr/local/bin/nextflow
-sudo chmod 755 /usr/local/bin/nextflow
-```
