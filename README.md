@@ -12,6 +12,9 @@ Install ansible roles with following command/s
 ansible-galaxy install geerlingguy.java
 ansible-galaxy install andrewrothstein.miniconda
 ansible-galaxy install stefangweichinger.rclone
+this last role is no longer working try to replace with the following..
+ansible-galaxy install stefangweichinger.ansible-rclone
+
 ```
 ### Step
 Get the IP address of your cloud instance and edit this in the 'hosts' file. Edit the path to your private ssh key file in the same file. 
