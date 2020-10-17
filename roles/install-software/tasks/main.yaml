@@ -7,7 +7,7 @@
   - name: Change nextflow file ownership, group and permissions
     file:
       path: /usr/local/bin/nextflow
-      owner: ubuntu
-      group: ubuntu
+      owner: debian
+      group: debian
       mode: '0755'
 
