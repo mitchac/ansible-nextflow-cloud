@@ -7,3 +7,4 @@
     - role: andrewrothstein.miniconda
     - role: stefangweichinger.rclone
     - role: install-software
+    - role: geerlingguy.docker
