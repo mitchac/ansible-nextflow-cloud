@@ -29,6 +29,6 @@
   tags: 'volumes'    
   file:
     dest: /data
-    owner: ubuntu
+    owner: debian
     recurse: yes
 
