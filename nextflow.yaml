@@ -4,7 +4,7 @@
   roles:
     - role: mount-disk
     - role: geerlingguy.java
-    - role: andrewrothstein.miniconda
-    - role: stefangweichinger.rclone
+ #  - role: andrewrothstein.miniconda
+ #  - role: stefangweichinger.rclone
     - role: install-software
     - role: geerlingguy.docker
